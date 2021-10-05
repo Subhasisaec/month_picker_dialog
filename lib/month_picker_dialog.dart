@@ -222,7 +222,7 @@ class _MonthPickerDialogState extends State<_MonthPickerDialog> {
                       ),
                       IconButton(
                         icon: Icon(
-                          Icons.arrow_drop_down_outlined,
+                          Icons.keyboard_arrow_down_outlined,
                           color: snapshot.data!.downState
                               ? theme.primaryIconTheme.color
                               : theme.primaryIconTheme.color!.withOpacity(0.5),
