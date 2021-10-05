@@ -145,11 +145,11 @@ class _MonthPickerDialogState extends State<_MonthPickerDialog> {
       children: <Widget>[
         FlatButton(
           onPressed: () => Navigator.pop(context, null),
-          child: Text(widget.localizations.cancelButtonLabel+"hel"),
+          child: Text("Cancel"),
         ),
         FlatButton(
           onPressed: () => Navigator.pop(context, selectedDate),
-          child: Text(widget.localizations.okButtonLabel+"Hal"),
+          child: Text("proceed"),
         )
       ],
     );
