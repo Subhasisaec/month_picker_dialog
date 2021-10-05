@@ -212,7 +212,7 @@ class _MonthPickerDialogState extends State<_MonthPickerDialog> {
                     children: <Widget>[
                       IconButton(
                         icon: Icon(
-                          Icons.menu,
+                          Icons.up,
                           color: snapshot.data!.upState
                               ? theme.primaryIconTheme.color
                               : theme.primaryIconTheme.color!.withOpacity(0.5),
@@ -222,7 +222,7 @@ class _MonthPickerDialogState extends State<_MonthPickerDialog> {
                       ),
                       IconButton(
                         icon: Icon(
-                          Icons.add,
+                          Icons.down,
                           color: snapshot.data!.downState
                               ? theme.primaryIconTheme.color
                               : theme.primaryIconTheme.color!.withOpacity(0.5),
